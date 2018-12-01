@@ -8,7 +8,7 @@ public class NapoliTest {
     private Napoli napoli;
 
     @Before
-    private void setUp(){
+    public void setUp(){
         napoli = new Napoli(25,350);
     }
 
@@ -23,7 +23,7 @@ public class NapoliTest {
         //then
         Assert.assertEquals(expectedText,text);
 
-        //then
+
 
     }
 }
